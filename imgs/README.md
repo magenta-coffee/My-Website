@@ -1,3 +1,0 @@
-  - [] Avatar
-  - [] Logos
-  - [] Background image
