@@ -12,19 +12,12 @@
 			src="https://kit.fontawesome.com/89a074e21a.js"
 			crossorigin="anonymous"></script>
 		<link
-			rel="preconnect"
-			href="https://fonts.googleapis.com" />
-		<link
-			rel="preconnect"
-			href="https://fonts.gstatic.com"
-			crossorigin />
-		<link
 			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
 			rel="stylesheet" />
 		<link
 			rel="icon"
 			type="image/png"
-			href="imgs/favicon.png" />
+			href="imgs/logo.png" />
 		<title>Ellie Jiyoung An</title>
 		<meta
 			name="author"
@@ -36,7 +29,7 @@
 			rel="stylesheet"
 			href="style.css" />
 		<script
-			src="main"
+			src="main.js"
 			defer></script>
 	</head>
 	<body>
@@ -44,7 +37,7 @@
 		<nav id="navbar">
 			<div class="navbar__logo">
 				<img
-					src="imgs/favicon.png"
+					src="imgs/logo.png"
 					alt="Logo" />
 				<a href="#">Ellie Jiyoung An</a>
 			</div>
@@ -55,7 +48,47 @@
 			</ul>
 		</nav>
 		<!-- Profile -->
-		<section id="profile"></section>
+		<section id="profile">
+			<div class="profile__photo">
+				<img
+					src="imgs/profile.png"
+					alt="My profile photo" />
+			</div>
+			<ul class="profile__links">
+				<li class="profile__links__link">
+					<div class="profile__links__link__icon">
+						<img
+							src="imgs/svg files/envelope-solid.svg"
+							alt="Email icon" />
+					</div>
+					<div class="profile__links__link__text">Email</div>
+				</li>
+				<li class="profile__links__link">
+					<div class="profile__links__link__icon">
+						<img
+							src="imgs/svg files/github.svg"
+							alt="Github icon" />
+					</div>
+					<div class="profile__links__link__text">Github</div>
+				</li>
+				<li class="profile__links__link">
+					<div class="profile__links__link__icon">
+						<img
+							src="imgs/svg files/linkedin.svg"
+							alt="LinkedIn icon" />
+					</div>
+					<div class="profile__links__link__text">LinkedIn</div>
+				</li>
+				<li class="profile__links__link">
+					<div class="profile__links__link__icon">
+						<img
+							src="imgs/svg files/blog-solid.svg"
+							alt="Blog icon" />
+					</div>
+					<div class="profile__links__link__text">Blog</div>
+				</li>
+			</ul>
+		</section>
 
 		<!-- Guest books -->
 		<section id="guestbook"></section>
