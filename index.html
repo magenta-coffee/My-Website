@@ -17,7 +17,7 @@
 		<link
 			rel="icon"
 			type="image/png"
-			href="imgs/logo.png" />
+			href="imgs/nav/logo.png" />
 		<title>Ellie Jiyoung An</title>
 		<meta
 			name="author"
@@ -37,7 +37,7 @@
 		<nav id="navbar">
 			<div class="navbar__logo">
 				<img
-					src="imgs/logo.png"
+					src="imgs/nav/logo.png"
 					alt="Logo" />
 				<a href="#">Ellie Jiyoung An</a>
 			</div>
@@ -55,43 +55,70 @@
 					alt="My profile photo" />
 			</div>
 			<ul class="profile__links">
-				<li class="profile__links__link">
-					<div class="profile__links__link__icon">
+				<li class="link">
+					<div class="link__icon">
 						<img
 							src="imgs/svg files/envelope-solid.svg"
 							alt="Email icon" />
 					</div>
-					<div class="profile__links__link__text">Email</div>
+					<div class="link__text">Email</div>
 				</li>
-				<li class="profile__links__link">
-					<div class="profile__links__link__icon">
+				<li class="link">
+					<div class="link__icon">
 						<img
 							src="imgs/svg files/github.svg"
 							alt="Github icon" />
 					</div>
-					<div class="profile__links__link__text">Github</div>
+					<div class="link__text">Github</div>
 				</li>
-				<li class="profile__links__link">
-					<div class="profile__links__link__icon">
+				<li class="link">
+					<div class="link__icon">
 						<img
 							src="imgs/svg files/linkedin.svg"
 							alt="LinkedIn icon" />
 					</div>
-					<div class="profile__links__link__text">LinkedIn</div>
+					<div class="link__text">LinkedIn</div>
 				</li>
-				<li class="profile__links__link">
-					<div class="profile__links__link__icon">
+				<li class="link">
+					<div class="link__icon">
 						<img
 							src="imgs/svg files/blog-solid.svg"
 							alt="Blog icon" />
 					</div>
-					<div class="profile__links__link__text">Blog</div>
+					<div class="link__text">Blog</div>
 				</li>
 			</ul>
 		</section>
 
 		<!-- Guest books -->
-		<section id="guestbook"></section>
+		<section id="guestbook">
+			<h2>Guest Books</h2>
+			<img
+				src="imgs/svg files/plus-solid.svg"
+				alt=""
+				class="guestbook__addBtn" />
+			<div class="guestbook__guests">
+				<div class="guest">
+					<div class="guest__head">
+						<h3 class="head_guestID">Guest ID here</h3>
+						<div class="head__date">Date here</div>
+					</div>
+					<div class="guest__body">
+						<p>Your website looks fantastic!</p>
+					</div>
+					<div class="guest__footBtns">
+						<img
+							src="imgs/svg files/pen-to-square-solid.svg"
+							alt=""
+							class="footBtns__editBtn" />
+						<img
+							src="imgs/svg files/xmark-solid.svg"
+							alt=""
+							class="footBtns__removeBtn" />
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- About -->
 		<secection id="about"></secection>
