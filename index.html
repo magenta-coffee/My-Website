@@ -31,48 +31,51 @@
 	</nav>
 	<!-- Profile -->
 	<section id="profile">
-		<div class="profile__photo">
-			<img src="imgs/profile/Avatar.png" alt="My profile photo" />
-		</div>
+		<h1 class="profile__name">Ellie (Jiyoung) An</h1>
+		<img class="profile__photo" src="imgs/profile/Avatar.png" alt="My profile photo" />
 		<ul class="profile__links">
 			<li class="link">
-				<div class="link__icon">
+				<span class="link__icon">
 					<i class="fa-solid fa-envelope"></i>
-				</div>
-				<div class="link__text">Email</div>
+				</span>
+				<span class="link__text">Email</span>
 			</li>
 			<li class="link">
-				<div class="link__icon">
+				<span class="link__icon">
 					<i class="fa-brands fa-github"></i>
-				</div>
-				<div class="link__text">Github</div>
+				</span>
+				<span class="link__text">Github</span>
 			</li>
 			<li class="link">
-				<div class="link__icon">
+				<span class="link__icon">
 					<i class="fa-brands fa-linkedin"></i>
-				</div>
-				<div class="link__text">LinkedIn</div>
+				</span>
+				<span class="link__text">LinkedIn</span>
 			</li>
 			<li class="link">
-				<div class="link__icon">
+				<span class="link__icon">
 					<a title="Notion Labs, Inc., Public domain, via Wikimedia Commons"
 						href="https://commons.wikimedia.org/wiki/File:Notion-logo.svg"><img alt="Notion-logo"
 							src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/64px-Notion-logo.svg.png" /></a>
-				</div>
-				<div class="link__text">Notion</div>
+				</span>
+				<span class="link__text">Notion</span>
 			</li>
 		</ul>
 	</section>
 
 	<!-- Guest books -->
 	<section id="guestbook">
-		<h1 class="guestbook__title">Guest Books</h1>
-		<i class="fa-solid fa-plus"></i>
+		<div class="guestbook__head">
+			<h1 class="guestbook__title">Guest Books</h1>
+			<span class="guestbook__logo">
+				<i class="fa-solid fa-plus"></i>
+			</span>
+		</div>
 		<div class="guestbook__guests">
 			<div class="guest">
 				<div class="guest__head">
-					<h3 class="head_guestID">Guest ID here</h3>
-					<div class="head__date">Date here</div>
+					<span class="head_guestID">Guest ID here</span>
+					<span class="head__date">Date here</span>
 				</div>
 				<p class="guest__body">Your website looks fantastic!</p>
 				<div class="guest__footBtns">
@@ -394,13 +397,13 @@
 				<div class="project__tag">Web</div>
 				<img class="project__image" src="" alt="This website" />
 				<div class="project__description">
-					<h3 class="project__description__title">My Portfolio Website</h3>
-					<p class="project__description__stack">
+					<h2 class="project__description__title">My Portfolio Website</h2>
+					<div> class="project__description__stack">
 						<span>HTML</span>
 						<span>CSS</span>
 						<span>JavaScript</span>
 						<span>React.js</span>
-					</p>
+					</div>
 					<p class="project__description__body">This website is ~~~~</p>
 				</div>
 			</a>
